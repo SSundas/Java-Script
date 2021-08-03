@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Class-Task</title>
+
+</head>
+
+<body>
+<p id="wet"></p>
+
+<p id="set"></p>
+
+<p id="let"></p>
+
+<p id="get"></p>
+
+<p id="bet"></p>
+	
+<script>
+class fruit{
+	constructor(name,color,taste)
+	{this.name=name;
+	 this.color=color;
+	 this.taste=taste;
+	 }
+		  };
+			const f=new fruit("Strawberry", "Red", "Sweet-Sour");
+			document.getElementById("wet").innerHTML=f.name+"<br> "+f.color+"<br> "+f.taste;
+			
+			const r=new fruit("Mangoes", "Yellow", "Sweet");
+			document.getElementById("set").innerHTML=r.name+"<br> "+r.color+"<br> "+r.taste;
+			
+			const u=new fruit("Oranges", "Orange", "Sweet-Sour");
+			document.getElementById("let").innerHTML=u.name+"<br> "+u.color+"<br> "+u.taste;
+			
+			const i=new fruit("Banana", "Yellow", "Sweet");
+			document.getElementById("get").innerHTML=i.name+"<br> "+i.color+"<br> "+i.taste;
+
+
+			const t=new fruit("Pineapple", "Yellow-green", "Sweet");
+			document.getElementById("bet").innerHTML=t.name+"<br> "+t.color+"<br> "+t.taste;
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
