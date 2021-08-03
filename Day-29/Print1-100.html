@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>For-Loop_Javascript</title>
+</head>
+
+<body>
+<p id="get"></p>
+
+<script>
+
+function es() 
+{
+let k="";
+for (let q=0; q<=100; q++)
+{
+k+=q+"<br>";
+}
+return k;
+}
+
+try 
+{
+var q=es();
+document.getElementById("get").innerHTML=q;
+}
+
+catch (err) {
+document.getElementById("get").innerHTML=err.message;
+}
+
+
+</script>
+</body>
+</html>

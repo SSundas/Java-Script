@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>For-Loop_Javascript</title>
+</head>
+
+<body>
+<p id="cat"></p>
+
+<script>
+
+function mult() 
+{
+let k="";
+for (let u=0; u<=100; u++)
+{
+k+=u*2+"<br>";
+}
+return k;
+}
+
+try 
+{
+var u=mult();
+document.getElementById("cat").innerHTML=u;
+}
+
+catch (err) {
+document.getElementById("cat").innerHTML=err.message;
+}
+
+
+</script>
+</body>
+</html>
