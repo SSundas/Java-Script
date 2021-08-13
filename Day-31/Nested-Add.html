@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nested Function</title>
+
+</head>
+
+<body>
+<p id="k"></p>
+
+<script>
+document.getElementById('k').innerHTML=add();
+function add()
+{
+let sum=0;
+function plus()
+{
+sum=sum+1;
+}
+plus();
+return sum;
+}
+</script>
+
+
+</body>
+</html>
